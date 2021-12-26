@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+}
+
+.nav-item {
+  font-size: 18px;
+  padding-right: 20px;
+}
+.navbar .nav-item.active {
+  font-weight: bold;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.d-flex .btn {
+  font-size: 16px;
+  background-color: #c2b280;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+  padding: 9px 14px;
+}
+
+.d-flex .btn:hover {
+  background-color: #406343;
+  color: white;
+  transition: 0.5;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background-image: url("img/bgjumbotron.svg");
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+  width: 100%;
+}
+
+.textjum {
+  padding-top: 5rem;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+}
+
+.textjum p {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.jumbotron h1 {
+  letter-spacing: 2px;
+  font-size: 70px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.sosmed a {
+  color: white;
+  padding-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+/*About*/
+#about {
+  padding-top: 8%;
+  background-image: url("img/bgabout.svg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.textabout h1 {
+  padding-bottom: 5%;
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.textabout span {
+  color: #406343;
+}
+
+.textabout p {
+  font-size: 23px;
+}
+
+/*education*/
+.education {
+  background-image: url("img/bgedu.png");
+  padding-top: 8%;
+}
+
+.education h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.textedu h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  letter-spacing: 4px;
+}
+
+/*hobby*/
+.texthobby h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 4px;
+  padding-top: 10%;
+  padding-bottom: 9%;
+  font-size: 50px;
+}
+
+#hobby h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Project*/
+#project {
+  padding: 5rem;
+  background-image: url("img/bgproject.svg");
+  background-size: cover;
+}
+
+.textproject h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 4px;
+  padding-bottom: 5%;
+  font-size: 50px;
+}
+
+.textproject h1 span {
+  color: #406343;
+}
+
+.cardtwo {
+  background-color: #406343;
+}
+
+/*contact*/
+#contact {
+  background-image: url("img/contact.svg");
+  background-size: cover;
+  padding: 5rem;
+}
+
+.textcontact h1 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 4px;
+  font-size: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.textcontact span {
+  color: #406343;
+}
+
+#contact form .form-label {
+  font-size: 22px;
+}
+#contact form input {
+  border-radius: 0%;
+}
+.textarea {
+  border-radius: 0%;
+}
+
+/*footer*/
+footer {
+  background-color: #406343;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
